@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Retrofit</string>
+    <string name="id_pass">User ID: hasan, Password: 123</string>
+    <string name="user_id_hint">Give User ID for a joke</string>
+    <string name="get_a_joke">Get a Joke</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="ip_address">ip address</string>
+    <string name="show_my_ip_address">Show my ip address</string>
+
 </resources>
