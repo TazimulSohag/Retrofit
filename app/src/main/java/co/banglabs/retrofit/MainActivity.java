@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         ApiInterface apiInterface = RetrofitApiClient.getClient().create(ApiInterface.class);
 
-        Call call = apiInterface.getMyIp();
+        Call call = apiInterface.getIP() ;
         call.equals(new Callback<ServerResponse>() {
             @Override
             public void onResponse(retrofit2.Call<ServerResponse> call, Response<ServerResponse> response) {
